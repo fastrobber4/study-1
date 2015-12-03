@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>회원가입</title>
+</head>
+<body>
+
+<fieldset>
+    <legend><strong>회원정보입력</strong></legend>
+<form>
+<hr />
+<strong>표시는 필수 입력 사항입니다</strong>
+
+    <ul>
+        <li><label for="username"><strong>사용자 이름</strong></label> <input type="text" id="username"></li>
+<hr />
+        <li><label for="userid"><strong>아이디</strong> </label> <input type="text" id="userid"><input type="botton" value="중복확인"></li>
+        <ul>
+            <li><em>영문, 숫자 조합으로 6~20자까지 사용가능합니다.</em></li>
+            <li><em>첫 글자는 영문으로 설정해 주십시오.</em></li>
+
+        </ul>
+<hr />
+
+        <li><label for="userpw1"><strong>비밀번호</strong></label> <input type="password" id="userpw1"></li>
+        <ul>
+            <li><em>영문, 숫자, 특수 문자 조합으로 8~20자까지 사용가능합니다.(영문은 대소문자 구분)</em></li>
+            <li><em>유출되기 쉬운 비밀번호는 등록할 수 없습니다. (예:111, abcd, password 등)</em></li>
+        </ul>
+<hr />
+        <li><label for="userpw2"><strong>비밀번호 확인</strong></label> <input type="password" id="userpw2"></li>
+<hr />
+        <li><label for="email"><strong>이메일</strong></label> <input type="text" id="email"> @ <input type="text"> <input type="botton" value="직접입력"></li>
+<hr />
+        <li><label for="call"><strong>연락처</strong> </label> <input type="text" id="call"> - <input type="text"> - <input type="text"></li>
+<hr />
+        <li><label for="phcall"><strong>휴대전화</strong></label> <input type="text" value="010" id="phcall"> - <input type="text"> - <input type="text"></li>
+<hr />
+        <li>
+            <label for="ad"><strong>주소</strong> </label> <input type="text" id="ad"> - <input type="text"> <input type="botton" value="주소찾기"> <br />
+            <input type="text"> <br />
+            <input type="text"> <br />
+
+
+        </li>
+
+
+
+    </ul>
+
+    <input type="submit" value="회원가입">
+</form>
+</fieldset>
+
+
+
+
+
+</body>
+</html>
