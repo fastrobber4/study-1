@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>table</title>
+</head>
+<body>
+
+        <!-- table태그를 사용하여 엘리먼틀 구성해야한다.
+        구성요소중 tr 행을 이야기하고, td 열을 이야기한다. -->
+
+
+                            <!-- table 영역
+                        thead : 테이블 머릿글 (필수사항X)
+                        tbody : 테이블 컨텐츠 (필수사항O)
+                        tfood : 테이블 합산정보 (필수사항X)
+                        caption : 표의 제목부 h#관련 태그와는 의미가 다름 (필수항목O)
+                        summary : 표에 대한 디테이한 설명 (필수항목X)
+                        colgroup : 표의 너비에 대한 디자인값. 구성요소로는 <col /> 사용
+                                  <col />의 속성으로는 style="" width=""등 사용
+
+                        colspan : 좌우열 병합.
+                        rowspan : 상하행의 열을 병합할때 사용
+                        값을 줄경우 그 값만큼의 열 역할을함--->
+
+
+
+    <table border="1" width="100%" summary="12월4일에 작성한 표입니다">
+
+
+        <caption>게시판</caption>  <!-- 필수항목 -->
+
+
+        <colgroup>
+            <col width="100" />
+            <col width="100" />
+            <col width="100"/>
+            <col width="100" />
+        </colgroup>
+
+
+
+        <thead>
+        <tr>
+            <th>항목</th>
+            <th>항목</th>
+            <th>항목</th>
+
+        </tr>
+        </thead>
+
+        <tfoot>
+        <tr>
+            <td>foot</td>
+            <td>foot</td>
+            <td>foot</td>
+
+
+        </tr>
+        </tfoot>
+
+
+        <tbody>
+        <tr>
+            <td>item</td>
+            <td>b</td>
+            <td>c</td>
+            
+
+        </tr>
+
+        <tr>
+            <td>e</td>
+            <td>d</td>
+            <td>item</td>
+
+        </tr>
+
+
+
+<tr>
+    <td>a</td>
+    <td>q</td>
+
+    <td>e</td>
+
+</tr>
+        </tbody>
+
+
+
+
+    </table>
+
+
+
+
+
+
+</body>
+</html>
